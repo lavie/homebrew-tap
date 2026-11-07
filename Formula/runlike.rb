@@ -9,7 +9,7 @@ class Runlike < Formula
     depends_on arch: :arm64 # no Intel macOS binary
     on_arm do
       url "https://github.com/lavie/runlike/releases/download/v2.0.0/runlike-darwin-arm64"
-      sha256 "8fddc18cab59289f5a9c3da4ccb9116e497722b2175e19c6831a21ef848c5c2b"
+      sha256 "ab54870e3b1a90b206881e59ae56da087a98d2060d54ac064477dc4e8c07c135"
     end
   end
   on_linux do
